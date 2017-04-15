@@ -1,0 +1,25 @@
+Coins Assignment V1
+
+Purpose:
+This is a Django project that offers web APIs for payment/transaction and account management.
+
+Tech Stack:
+Django (v1.9)
+Django rest framework for APIs
+
+Future To Be Done:
+Ansible (for code deployment orchestration)
+nGinx (Static file serving)
+uWSGI (python application server)
+PostGres (replace SQLite as database)
+
+Project Build Guidelines:
+
+1. Create a Python virtual environment and activate it.
+2. Install requirements: `pip install -r requirements.txt`
+3. Run migrations: `python manage.py migrate`
+4. Run development server: `python manage.py runserver`
+
+Code Lint:
+"django-lint" is used as linting tool.
+Navigate to main project folder and run: `django-lint folder/`
