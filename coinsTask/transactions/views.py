@@ -23,6 +23,13 @@ Example POST data:
     "to_account": "a5cea467-1bd6-4c47-9ba9-21559007f3c1",
     "initiated_by": "209f5b13-dc53-48b8-8965-115a8f0538e4"
 }
+
+{
+    "amount":100,
+    "to_account": "209f5b13-dc53-48b8-8965-115a8f0538e4",
+    "from_account": "a5cea467-1bd6-4c47-9ba9-21559007f3c1",
+    "initiated_by": "a5cea467-1bd6-4c47-9ba9-21559007f3c1"
+}
 """
 
 class PaymentAPI(APIView):
