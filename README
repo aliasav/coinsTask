@@ -19,6 +19,7 @@ Project Build Guidelines:
 2. Install requirements: `pip install -r requirements.txt`
 3. Run migrations: `python manage.py migrate`
 4. Run development server: `python manage.py runserver`
+5. Run tests: `python manage.py test`
 
 Code Lint:
 "django-lint" is used as linting tool.
